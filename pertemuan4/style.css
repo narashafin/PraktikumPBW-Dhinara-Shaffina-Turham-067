@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #9c1328;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #d73e3e;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li :hover {
+  color: #f27ee5ff;
+}
+
+h2,
+h3 {
+  padding-top: 15px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 15px;
+  flex: 2;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 15px;
+  background-color: #bdc3c7;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 7px;
+}
+
+.form-group {
+  margin-top: 5px;
+  background-color: #d8dddf;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 0;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+select {
+  margin-top: 5px;
+  width: 100%;
+  padding: 7px;
+}
+
+textarea {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px;
+  background-color: aqua;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn :hover {
+  background-color:rgb(6, 162, 162);
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 20px;
+}
