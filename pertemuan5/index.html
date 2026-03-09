@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halaman Cek Nilai</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cek Nilai</h1>
+    <p>
+      Untuk mengetahui huruf mutu anda, Silahkan input beberapa data berikut:
+    </p>
+    <div class="container">
+      <div>
+        <h3>Nama Lengkap:</h3>
+        <input
+          type="text"
+          name="username"
+          id="name"
+          placeholder="Masukkan nama anda"
+          required
+        />
+      </div>
+      <div>
+        <h3>NPM:</h3>
+        <input type="text" id="npm" placeholder="2410631170XXX" required />
+      </div>
+      <div>
+        <h3>Nilai:</h3>
+        <input type="number" id="nilai" placeholder="0-100" required />
+      </div>
+      <button class="btn" onclick="cekNilai()">Cek Nilai</button>
+      <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
