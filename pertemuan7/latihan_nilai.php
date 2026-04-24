@@ -8,15 +8,15 @@
 </head>
 <body>
     <form action="proses.php" method="post">
-        <div style="display = flex; gap: 10px; margin-bottom: 10px;">
+        <div style="display : flex; gap: 10px; margin-bottom: 10px;">
             <label for="">Nama: </label>
             <input type="text" name="nama"><br>
         </div>
-        <div style="display = flex; gap: 10px; margin-bottom: 10px;">
+        <div style="display : flex; gap: 10px; margin-bottom: 10px;">
             <label for="">Apakah mengikuti perkuliahan?</label>
             <input type="text" name="kuliah"><br>
         </div>
-        <div style="display = flex; gap: 10px; margin-bottom: 10px;">
+        <div style="display : flex; gap: 10px; margin-bottom: 10px;">
             <label for="">Nilai ujian: </label>
             <input type="number" name="nilai"><br>
         </div>

@@ -1,69 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugas Pertemuan 3 Praktikum</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <form action="" method="GET" onsubmit="alert('Terkirim!')">
-    <h1>Formulir Login</h1>
-        <div>
-            <label for="">Nama:</label>
-             <input type="text" name="username" placeholder="Masukkan nama anda:"required><br>
-             <label for="">Email:</label>
-             <input type="email" name="email" placeholder="Masukkan email anda:" required>
-        </div>
-        
-        <div>
-            <label for="">Jenis kelamin:</label>
-            <input type="radio" name="gender" value="L" >Laki-Laki
-            <input type="radio" name="gender" value="P">Perempuan
-        </div>
-        <div>
-            <label for="">Pilih kota:</label>
-            <select name="kota" id="">
-                <option value="">Jakarta Pusat</option>
-                <option value="P">Jakarta Barat</option>
-                <option value="P">Jakarta Timur</option>
-                <option value="P">Jakarta Selatan</option>
-                <option value="P">Jakarta Utara</option>
-                <option value="P">Bandung</option>
-                <option value="P">Depok</option>
-                <option value="P">Surabaya</option>
-                <option value="P">Lainnya</option>
-            </select>
-        </div>
+      <h1>Formulir Login</h1>
+      <div>
+        <label for="">Nama:</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Masukkan nama anda:"
+          required
+        /><br />
+        <label for="">Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Masukkan email anda:"
+          required
+        />
+      </div>
 
-        <div>
-            <label for="">Pilih hobi:</label>
-            <input type="checkbox" name="pil 1" value="1">Olahraga
-            <input type="checkbox" name="pil 2" value="2">Mendengarkan Musik
-            <input type="checkbox" name="pil 3" value="3">Menonton Film
-            <input type="checkbox" name="pil 4" value="4">Lainnya
-        </div>
-        <div>
-            <table>
-                <tr>
-                    <td valign="top">Deskripsikan diri anda: </td>
-                    <td>
-                          <textarea name="deskripsi" id="" rows="10" cols="50" placeholder="Saya adalah..."></textarea>
-                    </td>
-                </tr>
-            </table>
-        </div>
+      <div>
+        <label for="">Jenis kelamin:</label>
+        <input type="radio" name="gender" value="L" />Laki-Laki
+        <input type="radio" name="gender" value="P" />Perempuan
+      </div>
+      <div>
+        <label for="">Pilih kota:</label>
+        <select name="kota" id="">
+          <option value="kota1">Jakarta Pusat</option>
+          <option value="kota2">Jakarta Barat</option>
+          <option value="kota3">Jakarta Timur</option>
+          <option value="kota4">Jakarta Selatan</option>
+          <option value="kota5">Jakarta Utara</option>
+          <option value="kota6">Bandung</option>
+          <option value="kota7">Depok</option>
+          <option value="kota8">Surabaya</option>
+          <option value="kota9">Lainnya</option>
+        </select>
+      </div>
 
-        <div>
-            <label for="">Pilih foto:</label>
-            <input type="file" name="uploadFile" accept="image/*">
-        </div>
+      <div>
+        <label for="">Pilih hobi:</label>
+        <input type="checkbox" name="pil 1" value="1" />Olahraga
+        <input type="checkbox" name="pil 2" value="2" />Mendengarkan Musik
+        <input type="checkbox" name="pil 3" value="3" />Menonton Film
+        <input type="checkbox" name="pil 4" value="4" />Lainnya
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td valign="top">Deskripsikan diri anda:</td>
+            <td>
+              <textarea
+                name="deskripsi"
+                id=""
+                rows="10"
+                cols="50"
+                placeholder="Saya adalah..."
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+      </div>
 
-        <div>
-            <br><button type="submit" >Kirim</button>
-        </div>
-       
+      <div>
+        <label for="">Pilih foto:</label>
+        <input type="file" name="uploadFile" accept="image/*" />
+      </div>
+
+      <div>
+        <br /><button type="submit">Kirim</button>
+        <button type="button" onclick="alert('Halo!')">Klik</button>
+      </div>
     </form>
-
-</body>
+  </body>
 </html>
